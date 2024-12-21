@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "id": "fivefivefiveutils",
+    "version": "${version}",
+    "name": "555 Utils",
+    "description": "A collection of utilities for 555 Clan members",
+    "authors": [
+        "nimrod"
+    ],
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.nimrod.FiveFiveFiveUtils"
+        ]
+    },
+    "mixins": [
+        "fivefivefiveutils.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.15.10",
+        "minecraft": "~1.20.6",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}
