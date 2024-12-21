@@ -17,7 +17,7 @@ import java.util.List;
 
 
 public class APIUtils {
-    public static String API_BASE_URL = "http://207.246.73.89:5029";
+    public static String API_BASE_URL = "NIMEX_API_BASE_URL";
 
     public static List<Kit> getKits() throws Exception {
         try (CloseableHttpClient httpClient = HttpClients.createDefault()) {
